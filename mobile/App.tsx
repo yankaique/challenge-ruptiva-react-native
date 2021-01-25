@@ -2,7 +2,7 @@ import React from 'react';
 import { StatusBar } from 'react-native';
 
 import Form from './src/pages/Form';
-import AppUser from './src/hooks/index';
+import AppUser from './src/hooks/user';
 
 export default function App() {
   return (

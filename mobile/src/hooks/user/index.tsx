@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserProvider } from './user';
+import { UserProvider } from './methods';
 
 const AppUser: React.FC = ({ children }) => {
   return <UserProvider>{children}</UserProvider>;
