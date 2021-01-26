@@ -1,4 +1,4 @@
-import React, { useCallback, useState, createContext, useContext } from 'react';
+import React, { useCallback, createContext, useContext } from 'react';
 import { database } from '../../services/connection';
 
 interface User {
